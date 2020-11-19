@@ -4,8 +4,8 @@ const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  birthdate: 'Jan 29, 2020',
-  name: 'Darlene'
+  birthdate: 'Nov 19, 2020',
+  name: 'Wishnya Di Chat ya'
 };
 
 function hideEverything() {
@@ -48,7 +48,7 @@ x = setInterval(function() {
     hw = w / 2, // half-width
     hh = h / 2,
     opts = {
-      strings: ['HAPPY', 'BIRTHDAY!', config.name],
+      strings: ['HAPPY', 'BIRTHDAY!', 'Gebi Kentang Ke-18', config.name],
       charSize: 30,
       charSpacing: 35,
       lineHeight: 40,
@@ -77,10 +77,10 @@ x = setInterval(function() {
       fireworkShardAddedSize: 3,
       gravity: 0.1,
       upFlow: -0.1,
-      letterContemplatingWaitTime: 360,
-      balloonSpawnTime: 20,
-      balloonBaseInflateTime: 10,
-      balloonAddedInflateTime: 10,
+      letterContemplatingWaitTime: 600,
+      balloonSpawnTime: 50,
+      balloonBaseInflateTime: 30,
+      balloonAddedInflateTime: 30,
       balloonBaseSize: 20,
       balloonAddedSize: 20,
       balloonBaseVel: 0.4,
